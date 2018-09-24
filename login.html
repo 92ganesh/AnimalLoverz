@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>LogIn</title>
+<style>
+	body{
+	    background: linear-gradient(yellow,green);
+	}
+	fieldset{
+	display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0em;
+    padding-bottom: 0.625em;
+    padding-left: 15.75em;
+    padding-right: 0.75em;
+    border: 5px groove (internal value);
+	}
+	
+	#logIn{
+		position:center;
+		width:800px;
+		height:600px;
+	}
+	
+</style>
+</head>
+<body>
+<center><h1 style="color:red"><i>Welcome to AnimalLoverz.org</i></h1></center> <br>
+
+<fieldset  action="/action_page.ph
+p" method="get" autocomplete="on">
+	<legend align="center"> <h1> Log In </h1></legend>
+	<form  action="/action_page.php" > 
+		Email id:
+			<input type="email" name="email"><br><br>
+		password:
+			<input type="text" name="phone" autocomplete="off"><br><br>
+		How much you like us <input type="range" name="points" min="0" max="10"><br><br>
+		<input type="checkbox" name="remember" value="remember">remember me<br><br>
+		<input type="submit" value="Log in">
+	</form>
+ 
+</fieldset>
+
+
+
+
+</body>
+
+
+</html>

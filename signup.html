@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<title>Sign up</title>
+<style>
+	body{
+	    background-color:#abfdca;
+	}
+	
+	
+	
+	fieldset{
+	display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 15.75em;
+    padding-right: 0.75em;
+    border: 5px groove (internal value);
+	}
+	
+	
+	
+</style>
+</head>
+<body>
+
+
+<fieldset>
+  <legend align="left"> <h1> Sign Up </h1></legend>
+
+  <form  name="signup"  align="left" autocomplete="on"> 
+ 
+  First name: 
+  <input type="text" name="firstname"  placeholder="type your first name here"  maxlength="20"   size="21" >
+  <span id="firstname_error" style="color:red">Enter your first name</span>
+  <br><br>
+  
+  Last name:
+  <input type="text" name="lastname"  placeholder="type your last name here"  maxlength="20"   size="21" >
+  <span id="lastname_error" style="color:red">Enter your last name</span>
+  <br><br>
+  
+  Date of Birth: <input type="text" name="dob" placeholder="dd/mm/yyyy">	
+   <span id="dob_error" style="color:red">Enter your Date of Birth</span>
+  <br><br>		
+  
+  Gender:  <input type="text" name="gender">
+   <span id="gender_error" style="color:red">Enter your Gender</span>
+  <br><br>
+  
+  Email id:
+  <input type="text" name="email1_text"   size="23">
+   <span  id="email_error"  style="color:red">Enter your Email id</span>
+  <br><br>
+  
+  Alterate Email id(optional):
+  <input type="text" name="email2_text"   size="23">
+  <br><br>
+  
+  Password:
+  <input type="password" name="password_text"   size="23">
+  <span  id="password_error"  style="color:red">length of the password should be at least 8 and must have at least one capital letter, one number and one special character(@,$,&,*)</span>
+  <br><br>
+  
+  phone no.:
+  <input type="text" name="phone" size="22">
+  <span  id="phone_error"  style="color:red">Enter your phone no.</span><br><br>
+  
+  Alterate phone no(optional):
+  <input type="text" name="phone2" size="22"><br><br>
+  
+  zip code  :
+  <input type="text" name="zip_code_text" autocomplete="off">
+  <span  id="zip_error"  style="color:red">Enter your zip code</span>
+  <br><br>
+  
+  I am a
+  <input list="category" name="category" size="26">
+  <datalist id="category">
+	<option value="Student">
+	<option value="Self employed">
+	<option value="house wife">
+	<option value="Retired">
+	<option value="not to say">
+  </datalist><br><br>
+  
+  Country:
+  <input type="text" name="country" value="India" size="23" readonly><br><br>
+  
+  How did yoy come to about our website:-<br>
+  <input type="radio" name="info" value="friend" checked> friend's recommendation<br>
+  <input type="radio" name="info" value="ads"> seen ad<br>
+  <input type="radio" name="info" value="re"> redirected from other website  <br>
+  <input type="radio" name="info" value="other"> other  <br><br>
+  <input type="checkbox" name="newletter_subs" value="news">I would like to receive emails regarding new my activities on the forum<br><br>
+  
+  <input type="checkbox" name="terms" value="terms">I agree with the terms and condition<br><br>
+  
+  <textarea rows="4" cols="50">
+	Tell us what do you think about nature.
+  </textarea><br><br>
+  
+  
+  <input type="button" value="sign up" onclick="validate()">
+  <input type="reset">
+  <button type="button"  onclick="alert('All entered info will be erased')">go back</button> 
+  
+  </form>
+ 
+</fieldset>
+
+ 
+ <script	language="javascript"   src="signup_Js.js"> </script>
+
+</body>
+
+
+</html>

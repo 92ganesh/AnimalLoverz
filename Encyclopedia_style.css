@@ -1,0 +1,132 @@
+	body{
+		background-image: url("Green_Grass.jpg");
+		 background-position: center;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+	    background-size: cover;
+	}
+	
+	img {
+    opacity: 1;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+	img:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=70); /* For IE8 and earlier */
+	}
+	
+	li{
+		color:orange;
+	
+	}
+	
+	
+	#website_name{
+	  font-size:40px;
+	  color: yellow;
+	  text-shadow: 2px 2px #DE0303;
+	}
+	
+	ul {
+	 list-style: none;
+	 margin: 0;
+	 padding: 0;
+	}
+	li {
+	display: inline-block;
+	}
+
+	table, th, td {
+     border: 1px solid black;
+	}
+   #facttitle{
+	 color:blue;
+	 text-shadow: 2px 2px red;
+   }
+   #category_list{
+     font-size:25px;
+	 color:black;
+	
+   }
+	
+   #nav_bar{
+     width:100%;
+	 border-collapse:collapse;
+	 font-size:20px;
+	 text-align:center;
+	 background-color:#B7C80F;
+   }
+ 
+  #tabs{
+	border: 1px solid;
+  }
+ 
+  #container1 {
+    border: 2px solid;
+    border-radius: 25px;
+	position : absolute;
+	float : left;
+	color : purple;
+	height: 1200px;
+	width: 20%;
+    margin: 50px 0px 0px 10px;
+  }
+  
+  #container2 {
+  float: right;
+   height: 600px;
+   float: right;
+   width: 75%;
+   margin: 50px 30px 10px;
+  }
+  
+  #fact_text{
+  background-color: #ffffff;
+  opacity: 0.5;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+  width: 523px;
+   text-shadow: 2px 1px red;
+  }
+  
+   #fact_detail1{
+  background-color: #ffffff;
+  font-size: 20px;
+  opacity: 0.7;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+  width: 523px;
+  }
+   #fact_detail2_div{
+  background-color: #ffffff;
+  font-size: 20px;
+  opacity: 0.7;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+  width: 523px;
+  transition-property: width;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+  transition-delay: 0s;
+  }
+   #fact_text:hover{
+  background-color: #ffffff;
+  opacity: 1;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+  width: 523px;
+   text-shadow: 2px 2x blue;
+  }
+  
+   #fact_detail1:hover{
+  background-color: #ffffff;
+  font-size: 20px;
+  opacity: 1;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+  width: 523px;
+  }
+   #fact_detail2_div:hover{
+  background-color: #ffffff;
+  font-size: 20px;
+  opacity: 1;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+  width: 650px;
+  }
+  
